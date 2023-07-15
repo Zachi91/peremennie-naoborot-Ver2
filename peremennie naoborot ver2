@@ -1,0 +1,10 @@
+int a = 2;
+int b = 1;
+
+Console.WriteLine($"До перестановки: {a} , {b}");
+
+--a;
+++b;
+
+Console.WriteLine($"После перестановки: {a} , {b}");
+Console.ReadKey();
